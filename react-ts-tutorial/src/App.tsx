@@ -10,7 +10,11 @@ function Header() {
     );
 }
 
-function Image(props) {
+type ImageProps = {
+    src?: string
+}
+
+function Image(props: ImageProps) {
     return (
         <div className="card">
             <div className="card-image">
@@ -26,8 +30,12 @@ function Loading() {
     return <p>Loading...</p>;
 }
 
-function Gallery(props) {
-    const {urls} = props;
+type GalleryProps = {
+    urls: string[] | null
+}
+
+function Gallery(props: GalleryProps) {
+    const urls = props.urls;
     if (urls == null) {
         return <Loading/>;
     }
