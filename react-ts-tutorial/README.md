@@ -1,9 +1,3 @@
-# 参考元
-Reactチュートリアル1：犬画像ギャラリーを作ろう
-
-https://zenn.dev/likr/articles/6be53ca64f29aa035f07
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
